@@ -73,24 +73,30 @@ end
 
 -- =============================================
 -- CARI KATA (support awalan 1/2/3 huruf)
+-- Prioritas: KBBI GitHub dulu, baru Index game
+-- Minimal 3 huruf
 -- =============================================
 local function findWord(awalan)
     awalan = awalan:lower()
     local firstChar = awalan:sub(1,1):upper()
     local list, seen = {}, {}
 
-    for _, w in ipairs(getGameWords(firstChar)) do
-        if not seen[w] then seen[w]=true; table.insert(list, w) end
-    end
-
+    -- Prioritas 1: KBBI GitHub (lebih reliable & valid)
     local kbbiList = KBBI[firstChar] or {}
     for _, w in ipairs(kbbiList) do
         w = tostring(w):lower()
         if not seen[w] then seen[w]=true; table.insert(list, w) end
     end
 
+    -- Prioritas 2: Index game sebagai fallback
+    for _, w in ipairs(getGameWords(firstChar)) do
+        if not seen[w] then seen[w]=true; table.insert(list, w) end
+    end
+
     for _, word in ipairs(list) do
-        if not usedWords[word] and word:sub(1, #awalan) == awalan then
+        if not usedWords[word]
+        and word:sub(1, #awalan) == awalan
+        and #word >= 3 then
             return word
         end
     end
@@ -329,15 +335,15 @@ TabRefresh:CreateButton({
     Callback = function()
         usedWords = {}
         lastHuruf = ""
-        Rayfield:Notify({ Title = "Reset Berhasil", Content = "Kosakata telah direset!", Duration = 2 })
+        Rayfield:Notify({ Title = "Reset Berhasil", Content = "Kosa kata telah direset!", Duration = 2 })
     end,
 })
 
-TabRefresh:CreateSection("Hint")
+TabRefresh:CreateSection("Informations")
 
 TabRefresh:CreateParagraph({
     Title = "● Reload KBBI",
-    Content = "Untuk memuat ulang kosakata dari Database, gunakan ini jika cheat tidak berfungsi.",
+    Content = "Untuk memuat ulang kosakata dari Database. Gunakan ini jika cheat tidak berfungsi.",
 })
 
 TabRefresh:CreateParagraph({
