@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/badge/Game-Sambung%20Kata-brightgreen?style=for-the-badge&logo=roblox" />
 <img src="https://img.shields.io/badge/Language-Lua%2FLuau-blue?style=for-the-badge&logo=lua" />
 <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Price-FREE-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=for-the-badge" />
 
 <br/>
