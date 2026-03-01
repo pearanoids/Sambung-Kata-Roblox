@@ -73,7 +73,7 @@ end
 
 -- =============================================
 -- CARI KATA (support awalan 1/2/3 huruf)
--- Prioritas: KBBI GitHub dulu, baru Index game
+-- Prioritas: KBBI spesifik awalan > KBBI huruf pertama > Index game
 -- Minimal 3 huruf
 -- =============================================
 local function findWord(awalan)
@@ -81,14 +81,21 @@ local function findWord(awalan)
     local firstChar = awalan:sub(1,1):upper()
     local list, seen = {}, {}
 
-    -- Prioritas 1: KBBI GitHub (lebih reliable & valid)
-    local kbbiList = KBBI[firstChar] or {}
-    for _, w in ipairs(kbbiList) do
+    -- Prioritas 1: KBBI dengan key awalan spesifik (misal "ia", "sib", dll)
+    local specificList = KBBI[awalan] or KBBI[awalan:upper()] or {}
+    for _, w in ipairs(specificList) do
         w = tostring(w):lower()
         if not seen[w] then seen[w]=true; table.insert(list, w) end
     end
 
-    -- Prioritas 2: Index game sebagai fallback
+    -- Prioritas 2: KBBI huruf pertama (misal "I", "S", dll)
+    local generalList = KBBI[firstChar] or {}
+    for _, w in ipairs(generalList) do
+        w = tostring(w):lower()
+        if not seen[w] then seen[w]=true; table.insert(list, w) end
+    end
+
+    -- Prioritas 3: Index game sebagai fallback terakhir
     for _, w in ipairs(getGameWords(firstChar)) do
         if not seen[w] then seen[w]=true; table.insert(list, w) end
     end
