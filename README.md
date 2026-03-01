@@ -21,7 +21,6 @@
 ## 📋 Daftar Isi
 
 - [✨ Fitur](#-fitur)
-- [🖼️ Preview](#️-preview)
 - [⚙️ Cara Penggunaan](#️-cara-penggunaan)
 - [✅ Kompatibilitas](#-kompatibilitas)
 - [📚 Database Kosakata](#-database-kosakata)
