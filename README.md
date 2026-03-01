@@ -183,8 +183,8 @@ Proyek ini dilisensikan di bawah **MIT License** — bebas digunakan, dimodifika
 
 <br/>
 
-<img src="https://img.shields.io/github/stars/USERNAME/Sambung-Kata-Roblox?style=social" />
-<img src="https://img.shields.io/github/forks/USERNAME/Sambung-Kata-Roblox?style=social" />
-<img src="https://img.shields.io/github/issues/USERNAME/Sambung-Kata-Roblox?style=social" />
+<img src="https://img.shields.io/github/stars/pearanoids/Sambung-Kata-Roblox?style=social" />
+<img src="https://img.shields.io/github/forks/pearanoids/Sambung-Kata-Roblox?style=social" />
+<img src="https://img.shields.io/github/issues/pearanoids/Sambung-Kata-Roblox?style=social" />
 
 </div>
