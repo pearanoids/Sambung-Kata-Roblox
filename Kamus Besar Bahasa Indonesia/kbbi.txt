@@ -7609,7 +7609,6 @@ futurolog
 futurologi
 futurologis
 fyord
-gaba-gaba
 gabah
 gabai
 gabak
@@ -22236,7 +22235,6 @@ putriditas
 putu
 putus
 putut
-puvi-puvi
 puyan
 puyeng
 puyer
@@ -22253,7 +22251,6 @@ qiraat
 qudsi
 quran
 raba
-raba-rubu
 rabak
 raban
 rabana
@@ -22330,6 +22327,7 @@ radis
 radium
 radius
 radon
+rufa
 radu
 radurisasi
 rafak
@@ -22472,7 +22470,6 @@ rancau
 rancu
 rancung
 randa
-randa-rondo
 randah
 randai
 randajawan
@@ -22519,7 +22516,6 @@ rangkung
 rangkup
 rangkus
 rangkut
-rango-rango
 rangrang
 rangrangan
 rangsang
@@ -23233,7 +23229,6 @@ riding
 ridip
 ridu
 rigai
-rigi-rigi
 rihat
 rihlah
 riil
@@ -23324,8 +23319,6 @@ rival
 rivalitas
 riwan
 riwayat
-robak-rabik
-robat-rabit
 robek
 roboh
 robok
@@ -23374,7 +23367,6 @@ romantis
 romantisisme
 romawi
 rombak
-rombang-rambing
 rombeng
 rombik
 rombohedron
@@ -23384,7 +23376,6 @@ rombong
 rombus
 romet
 romok
-romol-romol
 romong
 rompak
 rompal
@@ -23402,7 +23393,6 @@ rona
 ronce
 roncet
 ronda
-rondah-rondih
 ronde
 rondo
 rondok
@@ -23428,7 +23418,7 @@ rontgen
 rontok
 ronyeh
 ronyok
-ropak-rapik
+ropak
 rorehe
 rorod
 ros
@@ -23467,7 +23457,6 @@ ruap
 ruas
 ruat
 ruaya
-ruba-ruba
 rubah
 rubai
 rubaiat
@@ -23548,13 +23537,11 @@ rumus
 runcing
 runcit
 runding
-rundu-rundu
 runduk
 rundung
 rungau
 runggas
 runggu
-runggu-rangga
 rungguh
 runggut
 rungkau
@@ -23569,7 +23556,6 @@ runjang
 runjau
 runjung
 runtai
-runtang-runtung
 runtas
 runti
 runtih
@@ -23606,7 +23592,6 @@ saadah
 saadin
 saanen
 saat
-sab-sab
 saba
 sabah
 sabak
@@ -24333,7 +24318,6 @@ sekoi
 sekolah
 sekon
 sekongkol
-sekonyong-konyong
 sekop
 sekopong
 sekoteng
@@ -29003,6 +28987,7 @@ ungkur
 ungsi
 ungti
 ungu
+uranus
 unguis
 uni
 uniat
