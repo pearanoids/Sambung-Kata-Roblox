@@ -9,7 +9,7 @@
 
 <br/>
 
-> 🎮 **Script Roblox untuk game Sambung Kata** — Auto Answer dengan database kosakata Bahasa Indonesia terlengkap, dilengkapi GUI yang bersih dan mudah digunakan. **100% Gratis & Open Source!**
+> 🎮 **Script Roblox untuk game Sambung Kata** — Auto Answer dengan database kosakata Bahasa Indonesia, dilengkapi GUI yang bersih dan mudah digunakan.
 
 <br/>
 
@@ -83,14 +83,10 @@ Masuk ke Roblox dan buka game **Sambung Kata**.
 
 ### 📋 Langkah 3 — Copy Script
 
-**Metode A — Loadstring:**
+**Metode Loadstring:**
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/pearanoids/Sambung-Kata-Roblox/refs/heads/main/SBX_Script.lua"))()
 ```
-
-**Metode B — Paste Langsung:**
-> Buka file [`SBX_Script.lua`](./SBX_Script.lua) di repositori ini, copy seluruh isinya, lalu paste ke executor.
-
 ---
 
 ### ▶️ Langkah 4 — Jalankan
@@ -137,16 +133,6 @@ Database tersimpan di Folder Kamus Besar Bahasa Indonesia dan bisa dilihat, diau
 ## 🤝 Kontribusi
 
 Kontribusi sangat terbuka dan diterima dengan senang hati! 🙌
-
-### Cara berkontribusi:
-
-```
-1. Fork repositori ini
-2. Buat branch baru  →  git checkout -b fitur/nama-fitur
-3. Commit perubahan  →  git commit -m "Tambah: nama fitur"
-4. Push ke branch    →  git push origin fitur/nama-fitur
-5. Buat Pull Request
-```
 
 ### Ide kontribusi yang dibutuhkan:
 - 📝 Tambah kosakata baru ke database
