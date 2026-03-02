@@ -117,7 +117,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/pearanoids/Sambung-Ka
 Script ini menggunakan database kosakata Bahasa Indonesia yang telah dikurasi secara manual:
 
 ```
-📊 Total kata  : ±3.000+ kata
+📊 Total kata  : ±29.000 kata
 🔤 Cakupan     : Huruf A hingga Z
 📖 Jenis kata  : Kata dasar, kata turunan, frasa umum
 🇮🇩 Bahasa      : Bahasa Indonesia
