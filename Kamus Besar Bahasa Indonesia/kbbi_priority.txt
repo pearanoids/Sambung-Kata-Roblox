@@ -19,10 +19,7 @@ flux
 forex
 gallierex
 helix
-helix
 hystrix
-index
-index
 komix
 latex
 lex
@@ -49,12 +46,6 @@ paradox
 phoenix
 reflex
 rhinoplax
-simplex
-syntax
-thorax
-telex
-vertex
-vortex
 afiks
 aneks
 artefaks
@@ -114,7 +105,6 @@ ifrit
 iftar
 iftitah
 adaptif
-af
 agresif
 aktif
 alternatif
@@ -130,10 +120,7 @@ eksklusif
 eksplosif
 ekspresif
 ekstensif
-emosif
 figuratif
-identifikatif
-if
 imitatif
 impresif
 inklusif
